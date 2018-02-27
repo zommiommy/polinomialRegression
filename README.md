@@ -6,6 +6,10 @@
 
 
 ```python
+#Numerical stuff
+import numpy as np
+from scipy import linalg
+
 def polinomialRegression(X,Y,degree=2):
     degree += 1
     #creating B
